@@ -1,0 +1,16 @@
+$font-stack: "Urbanist",Arial, sans-serif;
+$primary-color: #0D0D0D;
+$primary-blue: #20586E;
+$primary-orange: #DEA051;
+$highlight-blue: #339AA6;
+$highlight-orange: #F29829;
+
+
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+  margin: 0 auto;
+}
+h1 {
+    font-family: "Bebas Neue";
+}
