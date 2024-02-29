@@ -72,6 +72,7 @@ nav {
 
 .menu-item {
   list-style: none;
+  font-size: 1.5em;
 }
 
 .menu-link {
@@ -94,12 +95,22 @@ main {
     background-image: url("../images/hero-bg.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: #000000;
     color: $primary-white;
     height: auto;
     padding: 20px;
+
+  
   
     h2, p {
-      max-width: 30%;
+      max-width: 50%;
+    }
+
+    h2 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.5em;
     }
   
     @media only screen and (max-width: 768px) {
@@ -200,7 +211,8 @@ main {
         margin: 1%;
         float: left;
         padding: 20px;
-        height: 200px;
+        min-height: 200px;
+        font-size: 1.1em;
 
         @media (max-width: 768px) {
           width: 80%;
