@@ -214,11 +214,14 @@ main .customers-container .customers .cus-box p:nth-child(2) {
 }
 main .contact-container {
   background-color: #0D0D0D;
+  border-bottom: 1px solid #DEA051;
 }
 main .contact-container .contact {
   width: 960px;
   margin: auto;
   overflow: hidden;
+  min-height: 70vh;
+  padding: 20px;
 }
 main .contact-container .contact h2 {
   color: #F5F5F5;
