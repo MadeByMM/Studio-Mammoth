@@ -24,7 +24,7 @@ h2 {
   margin: 0;
 }
 
-
+/** Header **/
 header {
   display: flex;
   justify-content:center;
@@ -83,6 +83,8 @@ nav {
     color: $highlight-orange;
   }
 }
+
+/** Frontpage **/
 
 main {
   width: 100%;
@@ -232,8 +234,77 @@ main {
       }
     }
   }
+
+  /** Contact Page **/
+  .contact-container {
+    background-color: $primary-color;
+
+    .contact {
+      width: 960px;
+      margin: auto;
+      overflow: hidden;
+
+      h2 {
+        color: $primary-white;
+        font-size: 2em;
+      }
+      .map-area {
+        width: 60%;
+        float: left;
+
+        ul {
+          list-style: none;
+          padding: 0;
+
+          li {
+            color: $primary-white;
+            border-right: 1px solid $primary-white;
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px;
+            span {
+              display: block;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+      .form-area {
+        width: 40%;
+        float: left;
+      
+        form {
+          width: 65%;
+        }
+
+        input, textarea {
+          border: 1px solid $primary-white;
+          background-color: $primary-color;
+          color: $primary-white;
+          font-family: $font-stack;
+          font-weight: bold;
+          width: 100%;
+          margin: 10px;
+          padding: 10px;
+        }
+
+        ::placeholder {
+          color: $primary-white;
+          opacity: 1;
+        }
+        ::ms-input-placeholder {
+          color: $primary-white;
+        }
+      }
+    }
+  }
 }
 
+small a{
+  color: $highlight-orange;
+  text-decoration: none;
+}
+/** Footer **/
 footer {
   background-color: $primary-color;
   color: $primary-white;

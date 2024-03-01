@@ -18,6 +18,7 @@ h2 {
   margin: 0;
 }
 
+/** Header **/
 header {
   display: flex;
   justify-content: center;
@@ -74,8 +75,10 @@ nav {
   color: #F29829;
 }
 
+/** Frontpage **/
 main {
   width: 100%;
+  /** Contact Page **/
 }
 main .hero-container {
   background-color: #000000;
@@ -209,7 +212,72 @@ main .customers-container .customers .cus-box p:first-child {
 main .customers-container .customers .cus-box p:nth-child(2) {
   color: #6C6C6C;
 }
+main .contact-container {
+  background-color: #0D0D0D;
+}
+main .contact-container .contact {
+  width: 960px;
+  margin: auto;
+  overflow: hidden;
+}
+main .contact-container .contact h2 {
+  color: #F5F5F5;
+  font-size: 2em;
+}
+main .contact-container .contact .map-area {
+  width: 60%;
+  float: left;
+}
+main .contact-container .contact .map-area ul {
+  list-style: none;
+  padding: 0;
+}
+main .contact-container .contact .map-area ul li {
+  color: #F5F5F5;
+  border-right: 1px solid #F5F5F5;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+}
+main .contact-container .contact .map-area ul li span {
+  display: block;
+  font-weight: bold;
+}
+main .contact-container .contact .form-area {
+  width: 40%;
+  float: left;
+}
+main .contact-container .contact .form-area form {
+  width: 65%;
+}
+main .contact-container .contact .form-area input, main .contact-container .contact .form-area textarea {
+  border: 1px solid #F5F5F5;
+  background-color: #0D0D0D;
+  color: #F5F5F5;
+  font-family: "Urbanist", Arial, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+main .contact-container .contact .form-area ::-moz-placeholder {
+  color: #F5F5F5;
+  opacity: 1;
+}
+main .contact-container .contact .form-area ::placeholder {
+  color: #F5F5F5;
+  opacity: 1;
+}
+main .contact-container .contact .form-area ::ms-input-placeholder {
+  color: #F5F5F5;
+}
 
+small a {
+  color: #F29829;
+  text-decoration: none;
+}
+
+/** Footer **/
 footer {
   background-color: #0D0D0D;
   color: #F5F5F5;
