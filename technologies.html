@@ -7,6 +7,8 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -15,40 +17,45 @@
         </div>    
         <h1>Studio Mammoth</h1> 
     </header>
-        <nav>
-            <ul class="menu">
-                <li class="menu-item"><a class="menu-link" href="index.html">Home</a></li>
+    <nav>
+        <ul class="menu">
+            <li class="menu-item"><a class="menu-link" href="index.html">Home</a></li>
             <li class="menu-item"><a class="menu-link" href="servicepage.html">Services</a></li>
             <li class="menu-item"><a class="menu-link" href="#">Portfolio</a></li>
             <li class="menu-item"><a class="menu-link" href="technologies.html">Technologies</a></li>
             <li class="menu-item"><a class="menu-link" href="about.html">About us</a></li>
             <li class="menu-item"><a class="menu-link" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        </ul>
+    </nav>
     
-
     <main>
-        <div class="contact-container">
-            <article class="contact">
-                <h2>Ready to elevate your brand?</h2>
-                <section class="map-area">
-                    <ul>
-                        <li>Expert<span>Team Members</span></li>
-                        <li>Results-Driven<span>Approach</span></li>
-                        <li>Streamlined<span>Execution</span></li>
-                    </ul>
-
-                    <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=9.466234445571901%2C55.474779557225446%2C9.484151601791384%2C55.479984353605694&amp;layer=mapnik&amp;marker=55.477382041335396%2C9.47519302368164" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=55.47738&amp;mlon=9.47519#map=17/55.47738/9.47519&amp;layers=N">Open larger map</a></small>
-                </section>
-                <section class="form-area">
-                    <form>
-                        <input type="text" name="name" placeholder="Name*" required>
-                        <input type="email" name="email" placeholder="Email*" required>
-                        <input type="text" name="company" placeholder="Company">
-                        <textarea name="message" placeholder="Project Details*" required></textarea>
-                        <input type="submit">Send</button>
-                    </form>
-                </section>     
+        <div class="about-hero">
+            <div class="ab-hero-container">
+                <h2>Technologies</h2>
+            </div>       
+        </div>
+        <div class="tech-container">
+            <article class="technologies">
+                <ul class="technology-list">
+                    <li class="technology-item">Languages
+                        <ul class="sub-technology-list">
+                            <li class="sub-technology-item">.Net</li>
+                            <li class="sub-technology-item">HTML5</li>
+                            <li class="sub-technology-item">Java</li>
+                            <li class="sub-technology-item">Node.Js</li>
+                            <li class="sub-technology-item">PHP</li>
+                            <li class="sub-technology-item">Python</li>
+                        </ul>
+                    </li>
+                    <li class="technology-item">Platforms
+                        <ul class="sub-technology-list">
+                            <li class="sub-technology-item">Azure</li>
+                            <li class="sub-technology-item">GCP</li>
+                            <li class="sub-technology-item">Oracle</li>
+                            <li class="sub-technology-item">SAP</li>
+                        </ul>
+                    </li>
+                </ul>
             </article>
         </div>
     </main>
@@ -92,9 +99,8 @@
                     </li>
                 </ul>
             </nav>
-
-
         </div>
     </footer>
 </body>
 </html>
+
